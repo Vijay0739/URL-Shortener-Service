@@ -1,0 +1,19 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "<h1>Url Shortner</h1>     <p>Url shortner which generates random characters which could redirect for long urls</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Vijay",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "shortid": "^2.2.16"
+  }
+}
